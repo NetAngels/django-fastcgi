@@ -1,7 +1,7 @@
 Description
 -----------
 
-Package for deploy django projects via FastCGI for django version greater then 1.9.
+Package for deploying django projects via FastCGI for django version 1.9 or higher.
 
 Django deploy method via FastCGI for shared-hosting described [here](https://docs.djangoproject.com/en/1.8/howto/deployment/fastcgi/#running-django-on-a-shared-hosting-provider-with-apache)
 
