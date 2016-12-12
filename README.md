@@ -1,9 +1,24 @@
 Description
 -----------
 
-Package for deploying django projects via FastCGI for django version 1.9 or higher.
+Package for deploying django projects via FastCGI for django version 1.9 or higher. It's is copy version of source code for FastCGI server from Django 1.8
 
 Django deploy method via FastCGI for shared-hosting described [here](https://docs.djangoproject.com/en/1.8/howto/deployment/fastcgi/#running-django-on-a-shared-hosting-provider-with-apache)
+
+Installation
+------------
+
+Just install with pip: 
+
+```bash
+pip install django-fastcgi-server
+```
+
+or
+
+```bash
+pip install git+https://github.com/NetAngels/django-fastcgi.git@0.1#egg=django-fastcgi-server
+```
 
 Examples
 --------
